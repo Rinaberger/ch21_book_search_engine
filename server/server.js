@@ -7,7 +7,7 @@ const { authMiddleware } = require("./utils/auth");
 const db = require("./config/connection");
 
 // imports typeDefs and resolvers into the apollo server\
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3003;
 const server = new ApolloServer({
   typeDefs,
   resolvers,
